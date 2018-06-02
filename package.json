@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.es6",
   "scripts": {
+    "watch": "webpack --config webpack.watch.js --watch",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [],
